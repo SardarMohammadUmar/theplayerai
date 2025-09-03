@@ -97,7 +97,7 @@ export default function Testimonials() {
               <div className="text-slate-400">{stat.label}</div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

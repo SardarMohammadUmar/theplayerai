@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import LanguageSwitcher from "./components/LanguageSwitcher";
-import Footer from "./components/Footer"; // Moved Footer to its own component file
-import { LanguageContext } from './components/LanguageContext';
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import Footer from "../components/Footer"; // Moved Footer to its own component file
+import { LanguageContext } from '../components/LanguageContext';
 
 const translations = {
   fr: {
